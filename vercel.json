@@ -1,0 +1,25 @@
+{
+  "version": 2,
+  "functions": {
+    "api/v1/json/index.js": {
+      "memory": 512,
+      "maxDuration": 30
+    },
+    "api/v1/xml/index.js": {
+      "memory": 512,
+      "maxDuration": 30
+    }
+  },
+  "routes": [
+    {
+      "src": "/api/v1/json",
+      "dest": "/api/v1/json/index.js",
+      "methods": ["POST"]
+    },
+    {
+      "src": "/api/v1/xml",
+      "dest": "/api/v1/xml/index.js",
+      "methods": ["POST"]
+    }
+  ]
+}

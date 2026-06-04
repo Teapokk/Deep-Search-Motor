@@ -1,0 +1,17 @@
+{
+  "name": "dsm",
+  "version": "1.0.0",
+  "description": "Deep Search Motor (DSM) — Open Source search engine framework. Current variant: Sky.",
+  "main": "packages/core/index.js",
+  "scripts": {
+    "start": "node packages/core/index.js",
+    "dev": "node --watch packages/core/index.js",
+    "test": "node test/run.js"
+  },
+  "keywords": ["dsm", "deep-search", "crawler", "search-engine", "sky"],
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.7.2",
+    "cheerio": "^1.0.0-rc.12"
+  }
+}
