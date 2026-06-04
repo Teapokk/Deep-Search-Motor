@@ -3,7 +3,7 @@
  * Serverless function (Vercel) that orchestrates a DSM variant search
  * and returns results as application/xml.
  *
- * POST /api/v1/xml
+ * POST /api/v1/xm
  * Body: { url: string, limit: number, variant?: string }
  */
 
